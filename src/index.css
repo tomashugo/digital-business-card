@@ -7,6 +7,49 @@ body {
   align-items: center;
 }
 
+.button-email {
+  margin-right: 17px;
+  background-color: #fff;
+  color: #374151;
+}
+
+.button-linkedin {
+  background-color: #5093e2;
+  color: #fff;
+}
+
+.button-email, .button-linkedin {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 520;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.content {
+  width: 247px;
+  color: #f5f5f5;
+  margin-left: 36px;
+  margin-top: 33px;
+  padding-top: 0;
+}
+
+.content h2 {
+  font-size: 16px;
+  font-weight: bold; 
+  text-align: left;
+}
+
+.content p {
+  font-size: 10.24px;
+  text-align: left;
+}
+
 .container {
   width: 550px;
   height: 868px;
@@ -20,13 +63,55 @@ body {
   width: 317px;
   height: 780px;
   border-radius: 10px;
-  background-color: #161619;
+  background-color: #1A1B21;
+  position: relative;
 }
 
 .profilePhoto {
   border-radius: 10px 10px 0 0;
+  margin: 0;
+}
+
+.card > h1, h2, p {
+  font-family: Inter, sans-serif;
+  text-align: center;
 }
 
 .card > h1 {
   color: white;
+  margin-top: 21px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.card > h2 {
+  color: #f3bf99;
+  font-size: 12.8px;
+  font-weight: normal;
+  margin-top: 6.19px;
+}
+
+.card > p {
+  color: #f5f5f5;
+  font-size: 10.24px;
+  font-weight: normal;
+}
+
+.footer {
+  width: 317px;
+  height: 64px;
+  bottom:0;
+  position: absolute;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #918E9B;
+}
+
+.r24 {
+  margin-right: 24px;
 }
